@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+<remote  name="hubbed"
+           fetch="https://github.com" />
+
+<default revision="refs/heads/master"
+           remote="hubbed"
+           sync-j="4" />
+
+          <project name="atiniir/biologger" remote="hubbed" path="bio"/>
+          <project name="atiniir/alfred-quick-ref" remote="hubbed" path="fred"/>
+</manifest>
